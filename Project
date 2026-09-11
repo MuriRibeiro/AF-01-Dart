@@ -9,8 +9,8 @@ class Passageiro {
   final String id;
   final String nome;
   final String cpf;
-  final String? email; // Opcional
-  String? programaMilhas; // Opcional
+  final String? email; 
+  String? programaMilhas; 
 
   Passageiro({
     required this.id,
@@ -274,7 +274,7 @@ class Passagem {
   Passagem();
 
   Passagem.somenteCodigo(String codigoLocalizador) {
-    this.codigoLocalizador = codigoLocalizador; // Ativa a validação do setter nativo
+    this.codigoLocalizador = codigoLocalizador; 
   }
 
   Passagem.completa(
